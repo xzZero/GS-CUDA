@@ -1,0 +1,356 @@
+﻿  
+  D:\cuda demo\method2single3S\method2single3S>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin\nvcc.exe" -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64" -x cu  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\include"     --keep-dir x64\Release -maxrregcount=0  --machine 64 --compile      -DWIN32 -DWIN64 -DNDEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /FS /Zi  /MD " -o x64\Release\fft.cu.obj "D:\cuda demo\method2single3S\method2single3S\fft.cu" -clean 
+  fft.cu
+  
+  D:\cuda demo\method2single3S\method2single3S>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin\nvcc.exe" -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64" -x cu  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\include"     --keep-dir x64\Release -maxrregcount=0  --machine 64 --compile      -DWIN32 -DWIN64 -DNDEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /FS /Zi  /MD " -o x64\Release\gsOp.cu.obj "D:\cuda demo\method2single3S\method2single3S\gsOp.cu" -clean 
+  gsOp.cu
+  
+  D:\cuda demo\method2single3S\method2single3S>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin\nvcc.exe" -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64" -x cu  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\include"     --keep-dir x64\Release -maxrregcount=0  --machine 64 --compile      -DWIN32 -DWIN64 -DNDEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /FS /Zi  /MD " -o x64\Release\kernel.cu.obj "D:\cuda demo\method2single3S\method2single3S\kernel.cu" -clean 
+  kernel.cu
+  Compiling CUDA source file fft.cu...
+  Compiling CUDA source file kernel.cu...
+  Compiling CUDA source file gsOp.cu...
+  
+  D:\cuda demo\method2single3S\method2single3S>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin\nvcc.exe" -gencode=arch=compute_30,code=\"sm_30,compute_30\" --use-local-env --cl-version 2015 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64" -x cu  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\include"     --keep-dir x64\Release -maxrregcount=0  --machine 64 --compile -cudart static     -DWIN32 -DWIN64 -DNDEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /FS /Zi  /MD " -o x64\Release\fft.cu.obj "D:\cuda demo\method2single3S\method2single3S\fft.cu" 
+  
+  D:\cuda demo\method2single3S\method2single3S>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin\nvcc.exe" -gencode=arch=compute_30,code=\"sm_30,compute_30\" --use-local-env --cl-version 2015 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64" -x cu  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\include"     --keep-dir x64\Release -maxrregcount=0  --machine 64 --compile -cudart static     -DWIN32 -DWIN64 -DNDEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /FS /Zi  /MD " -o x64\Release\kernel.cu.obj "D:\cuda demo\method2single3S\method2single3S\kernel.cu" 
+  
+  D:\cuda demo\method2single3S\method2single3S>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin\nvcc.exe" -gencode=arch=compute_30,code=\"sm_30,compute_30\" --use-local-env --cl-version 2015 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64" -x cu  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\include"     --keep-dir x64\Release -maxrregcount=0  --machine 64 --compile -cudart static     -DWIN32 -DWIN64 -DNDEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /FS /Zi  /MD " -o x64\Release\gsOp.cu.obj "D:\cuda demo\method2single3S\method2single3S\gsOp.cu" 
+D:/cuda demo/method2single3S/method2single3S/fft.cu(24): warning : function "_cudaGetErrorEnum" was declared but never referenced
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(428): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(435): warning : non-void function "main" should return a value
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(444): warning : non-void function "main" should return a value
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(461): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(466): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(469): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(508): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(509): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(510): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(512): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(513): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(514): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(515): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(516): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(517): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(518): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(519): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(520): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(523): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(530): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(572): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(635): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(636): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(637): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(638): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(639): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(640): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(641): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(642): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(643): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(644): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(645): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(646): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(647): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(648): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(649): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(650): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(651): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(652): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(655): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(672): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(673): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(674): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(675): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(676): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(677): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(678): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(682): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(685): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(686): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(687): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(797): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(798): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(799): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(831): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(832): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(833): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(839): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(840): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(841): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(843): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(844): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(845): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(847): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(848): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(849): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(874): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(875): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(876): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(878): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(879): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(880): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(889): warning : taking the address of a temporary
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(889): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(890): warning : taking the address of a temporary
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(890): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(891): warning : taking the address of a temporary
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(891): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(893): warning : taking the address of a temporary
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(893): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(894): warning : taking the address of a temporary
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(894): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(895): warning : taking the address of a temporary
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(895): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(901): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(902): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(903): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(910): warning : taking the address of a temporary
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(910): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(911): warning : taking the address of a temporary
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(911): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(912): warning : taking the address of a temporary
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(912): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(914): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(915): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(916): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(973): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(974): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(975): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(977): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(978): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(979): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(993): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(994): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(995): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(998): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(1050): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(1051): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(1052): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(1054): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(1055): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(1056): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(1058): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(1059): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(1060): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(1074): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(1075): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(1076): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(1078): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(1079): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(1080): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(1084): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(1142): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(1143): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(1144): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(1145): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(1146): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(1147): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(1159): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(1160): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(1161): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(1162): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(1163): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(1164): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(1180): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(1181): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(1182): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(1185): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(1223): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(1224): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(1225): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(1227): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(1228): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(1229): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(1246): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(1247): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(1248): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(1251): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(607): warning : variable "nframe_" was declared but never referenced
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(608): warning : variable "n" was declared but never referenced
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(609): warning : variable "iter" was declared but never referenced
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(692): warning : variable "size_Image" was declared but never referenced
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(694): warning : variable "k" was declared but never referenced
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(701): warning : variable "linka1" was declared but never referenced
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(701): warning : variable "linka2" was declared but never referenced
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(705): warning : variable "loop" was declared but never referenced
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(73): warning : function "_cudaGetErrorEnum" was declared but never referenced
+D:/cuda demo/method2single3S/method2single3S/fft.cu(24): warning : function "_cudaGetErrorEnum" was declared but never referenced
+  fft.cu
+  gsOp.cu
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(428): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(435): warning : non-void function "main" should return a value
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(444): warning : non-void function "main" should return a value
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(461): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(466): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(469): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(508): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(509): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(510): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(512): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(513): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(514): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(515): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(516): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(517): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(518): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(519): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(520): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(523): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(530): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(572): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(635): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(636): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(637): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(638): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(639): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(640): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(641): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(642): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(643): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(644): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(645): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(646): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(647): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(648): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(649): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(650): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(651): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(652): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(655): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(672): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(673): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(674): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(675): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(676): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(677): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(678): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(682): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(685): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(686): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(687): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(797): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(798): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(799): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(831): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(832): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(833): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(839): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(840): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(841): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(843): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(844): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(845): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(847): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(848): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(849): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(874): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(875): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(876): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(878): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(879): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(880): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(889): warning : taking the address of a temporary
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(889): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(890): warning : taking the address of a temporary
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(890): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(891): warning : taking the address of a temporary
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(891): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(893): warning : taking the address of a temporary
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(893): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(894): warning : taking the address of a temporary
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(894): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(895): warning : taking the address of a temporary
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(895): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(901): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(902): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(903): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(910): warning : taking the address of a temporary
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(910): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(911): warning : taking the address of a temporary
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(911): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(912): warning : taking the address of a temporary
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(912): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(914): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(915): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(916): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(973): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(974): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(975): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(977): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(978): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(979): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(993): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(994): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(995): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(998): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(1050): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(1051): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(1052): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(1054): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(1055): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(1056): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(1058): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(1059): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(1060): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(1074): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(1075): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(1076): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(1078): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(1079): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(1080): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(1084): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(1142): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(1143): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(1144): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(1145): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(1146): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(1147): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(1159): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(1160): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(1161): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(1162): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(1163): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(1164): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(1180): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(1181): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(1182): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(1185): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(1223): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(1224): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(1225): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(1227): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(1228): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(1229): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(1246): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(1247): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(1248): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(1251): warning : conversion from a string literal to "char *" is deprecated
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(607): warning : variable "nframe_" was declared but never referenced
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(608): warning : variable "n" was declared but never referenced
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(609): warning : variable "iter" was declared but never referenced
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(692): warning : variable "size_Image" was declared but never referenced
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(694): warning : variable "k" was declared but never referenced
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(701): warning : variable "linka1" was declared but never referenced
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(701): warning : variable "linka2" was declared but never referenced
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(705): warning : variable "loop" was declared but never referenced
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(73): warning : function "_cudaGetErrorEnum" was declared but never referenced
+  kernel.cu
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(58): warning C4477: 'fprintf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'int'
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(58): warning C4313: 'fprintf': '%s' in format string conflicts with argument 1 of type 'int'
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(68): warning C4477: 'fprintf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'int'
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(68): warning C4313: 'fprintf': '%s' in format string conflicts with argument 1 of type 'int'
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(694): warning C4101: 'k': unreferenced local variable
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(701): warning C4101: 'linka2': unreferenced local variable
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(701): warning C4101: 'linka1': unreferenced local variable
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(1470): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(1471): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(1480): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:/cuda demo/method2single3S/method2single3S/kernel.cu(1509): warning C4477: 'scanf' : format string '%d' requires an argument of type 'int *', but variadic argument 1 has type 'char *'
+  D:/cuda demo/method2single3S/method2single3S/kernel.cu(1509): note: consider using '%hhd' in the format string
+  LINK : /LTCG specified but no code generation required; remove /LTCG from the link command line to improve linker performance
+  method2single3S.vcxproj -> D:\cuda demo\method2single3S\x64\Release\method2single3S.exe
+  method2single3S.vcxproj -> D:\cuda demo\method2single3S\x64\Release\method2single3S.pdb (Full PDB)
+  copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin\cudart*.dll" "D:\cuda demo\method2single3S\x64\Release\"
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin\cudart32_90.dll
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin\cudart64_90.dll
+          2 file(s) copied.
