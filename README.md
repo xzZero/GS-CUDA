@@ -29,3 +29,6 @@ git clone https://github.com/xzZero/GS-CUDA.git
 - Single vs. Double Precision
 
 ## Result:
+- Speed-up factor: 40x
+- Error: 3.6%
+![alt text](https://github.com/xzZero/GS-CUDA/blob/main/results.png)
